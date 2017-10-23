@@ -52,8 +52,9 @@ Now that you've created a github account and SSH key let's create your first rep
 
 ---
 ## Workflow & Commands
-
-
+Now that you've created your github account and created your first repository, here are some tips when working with github.
+1. always use `git status` to check the status of your work.
+2. everytime you've made edits to your work add it to the staging area using `git add filname` then commit it using `git commit -m "message"` then `git push` it to your remote in github.
 
 ---
 ## Rolling Back Changes
