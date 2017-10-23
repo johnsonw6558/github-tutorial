@@ -58,3 +58,10 @@ Now that you've created your github account and created your first repository, h
 
 ---
 ## Rolling Back Changes
+If you've accidentally edited your work, add a file, commit a file, or push your work here's you you undo them:
+* To undo an edit use `git checkout -- filename`. This will change your work back to your previous commit
+* To undo an add use `git reset HEAD filename`
+* To undo a commit use `git reset --soft HEAD~1`
+* To undo a commit use `git revert`
+* To undo a commit and an add use `git reset HEAD~1`
+* To undo an edit, an add, and a commit use `git reset --hard HEAD~1`
