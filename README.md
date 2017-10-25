@@ -16,7 +16,7 @@ _By : Johnson Wu_
 ---
 ## Initial Setup
 1. _Create Github Account_
-    1. Go to [Github](www.github.com)
+    1. Go to [Github](https://github.com)
     2. Click on _"Sign Up"_ on top right
     3. Complete all steps in creating your account
     4. After you've successfully created your Github account, explore Github and get familiar with it
