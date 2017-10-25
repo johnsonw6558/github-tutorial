@@ -29,23 +29,23 @@ _By : Johnson Wu_
     6. Open a new tab and go to your [c9](https://c9.io/) account
     7. After you've logged on to your c9 account click on the gear icon on the top right
     8. Click on _"SSH Keys"_ then copy the **second SSH key** to your Github and press _"Add SSH key"_
-    9. Finally go back to your cloud9 and open your "github-learning" IDE then type in `ssh -T git@github.com`. You should see `Hi <your username>! You've successfully authenticated, but GitHub does not provide shell access._`. If not, you must have done something wrong or there might be an error so please ask for **help**.
+    9. Finally go back to your cloud9 and open your "github-learning" IDE then type in `ssh -T git@github.com`. You should see `Hi <your username>! You've successfully authenticated, but GitHub does not provide shell access._`. This means that you've successfully created an SSH key between your Github and c9. If not, you must have done something wrong or there might be an error so please ask for **help**.
 
 ---
 ## Repository Setup
 Now that you've created a github account and SSH key let's create your first repository!
-1. Make a new directory called `first-repo` by typing `mkdir <name>`
-2. `cd` into `first-repo`
-3. Initialize git in `first-repo` by typing in `git init`
-4. Create `README.md` file by typing `touch <filename>`
-5. Open `README.md` file and type in anything you like
+1. In your "github-learning" IDE in your c9, make a new directory called `first-repo` by typing `mkdir <name>`
+2. Go into your `first-repo` directory using `cd first-repo`
+3. Initialize git in `first-repo` by typing in `git init` **Explain git init**
+4. Create `README.md` file by typing `touch README.md`
+5. Open `README.md` file using `c9 README.md` and type in anything you like
 6. Save the file then add the file to the staging area using `git add <filename>`
 7. Commit your file using `git commit -m "<insert message>"`
 8. Open a new tab and go to your Github account 
-9. Once you've logged into Github account click on the + icon the top right then click on "New repository". _**If it ask to verify your email, verify it**_.
-10. For the repository name type in "first-repo" (_**remember the repository name on your github must match your repository name on c9**_) then click on "Create repository"
+9. Once you've logged onto your Github account click on the "+" icon on the top right then click on "New repository". _**If it ask to verify your email, verify it**_.
+10. For the repository name type in "first-repo" because _**the repository name on your github must always match your repository name on c9**_ then click on "Create repository"
 11. Now you should be somewhere that says "Quick setup - if you've this kind of thing before" _**make sure you have SSH selected**_
-12. Copy and paste the line of code that says `git add remote origin URL` to your c9 first then copy and paste the line of code that says `git push -u origin master` to your c9
+12. Copy and paste the line of code that says `git add remote origin URL` to your c9 first then copy and paste the line of code that says `git push -u origin master` to your c9 **think there's something wrong fix**
 13. To check your remote in your c9 use `git remote -v`
 14. To delete the remote use `git remote rm origin`
 
