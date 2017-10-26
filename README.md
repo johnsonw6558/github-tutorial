@@ -61,7 +61,8 @@ If you've accidentally edited a file, add a file, commit a file, or push your wo
 * To undo an add use `git reset HEAD filename`. This will remove the file(s) you've added to the stage. This is a helpful git command because if you've accidentally added multiples of files to the stage when you only want to add just one of them to the stage then you can undo the adds using this command.
 * To undo a commit use `git reset --soft HEAD~1`. This will undo the snapshot of your file(s) you've added to the stage. You can use this command when you realized that you forgot to add a file to the stage to be committed after you've committed.
 * To undo a commit and an add use `git reset HEAD~1` This will undo the snapshot of the file(s) you've added to the stage and remove the file(s) from the stage. You may want to use this command when you realized that you made a mistake in a file after you added and committed that file.
-* To undo an edit, an add, and a commit use `git reset --hard HEAD~1` This will bring you back to your revious commit. You may want to do this when you've realized that you've made unecessary edits to a file after you edited, added, and committed that file.
+* To undo an edit, an add, and a commit use `git reset --hard HEAD~1` This will bring you back to your previous commit. You may want to do this when you've realized that you've made unecessary edits to a file after you edited, added, and committed that file.
+* To undo a push use `git revert`. This will bring you back to your previous commit. You can use this when you realized that your previous commit was fine after you `git push`.
 
 
 
